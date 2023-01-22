@@ -1,0 +1,2 @@
+# Einheitsfront-MOD
+ドイツなどソ連以外の複数の国でもWW2前に社会主義革命が起きた世界線のhoi4のMOD
