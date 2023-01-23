@@ -1,0 +1,372 @@
+#ポーランドのNFです
+focus_tree = {
+	id = [POL]_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = [POL]
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 1100
+	}
+	#ここからルクセンブルク主義ルートのNF
+	# focus = {
+	# 	id = POL_KPP_victory
+	# 	icon = "GFX_goal_support_communism"
+	# 	x = 1
+	# 	y = 0
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	# focus = {
+	# 	id = POL_praise_Rosa
+	# 	icon = "GFX_focus_generic_military_academy"
+	# 	prerequisite = {
+	# 		focus = KPP_victory
+	# 	}
+	# 	relative_position_id = POL_KPP_victory
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	# focus = {
+	# 	id = POL_reconcile_with_moderates
+	# 	icon = "GFX_focus_generic_polish_deal"
+	# 	prerequisite = {
+	# 		focus = POL_praise_Rosa
+	# 	}
+	# 	relative_position_id = POL_praise_Rosa
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	# focus = {
+	# 	id = POL_purge_reactionaries
+	# 	icon = "GFX_focus_SOV_the_last_purge"
+	# 	prerequisite = {
+	# 		focus = POL_praise_Rosa
+	# 	}
+	# 	relative_position_id = POL_praise_Rosa
+	# 	x = -1
+	# 	y = 1
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	# focus = {
+	# 	id = POL_empower_radas
+	# 	icon = "GFX_focus_generic_soviet_politics"
+	# 	prerequisite = {
+	# 		focus = POL_reconcile_with_moderates
+	# 	}
+	# 	prerequisite = {
+	# 		focus = POL_purge_reactionaries
+	# 	}
+	# 	relative_position_id = POL_purge_reactionaries
+	# 	x = 1
+	# 	y = 1
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	# focus = {
+	# 	id = POL_Radarepublika_polska
+	# 	icon = "GFX_focus_POL_the_four_year_plan"
+	# 	prerequisite = {
+	# 		focus = POL_empower_radas
+	# 	}
+	# 	relative_position_id = POL_empower_radas
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	# focus = {
+	# 	id = POL_crush_the_seperatists
+	# 	icon = "GFX_goal_generic_political_pressure"
+	# 	prerequisite = {
+	# 		focus = POL_Radarepublika_polska
+	# 	}
+	# 	relative_position_id = POL_Radarepublika_polska
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	#ここから農民党・社会党連合ルートのNF
+	focus = {
+		id = POL_SL_and_PPS_Coalition_victory
+		icon = "GFX_focus_prc_agrarian_socialism"
+		x = 7
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここから外交ツリー
+	focus = {
+		id = POL_balance_the_relations
+		icon = "GFX_goal_generic_neutrality_focus"
+		prerequisite = {
+			focus = POL_SL_and_PPS_Coalition_victory
+		}
+		relative_position_id = POL_SL_and_PPS_Coalition_victory
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POL_improve_union_relations
+		icon = "GFX_focus_chi_british_cooperation"
+		prerequisite = {
+			focus = POL_balance_the_relations
+		}
+		relative_position_id = POL_balance_the_relations
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POL_keep_reds_close
+		icon = "GFX_goal_support_communism"
+		prerequisite = {
+			focus = POL_improve_union_relations
+		}
+		relative_position_id = POL_improve_union_relations
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POL_neutral_yet_friendly
+		icon = "GFX_goal_generic_national_unity"
+		prerequisite = {
+			focus = POL_keep_reds_close
+		}
+		relative_position_id = POL_keep_reds_close
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ナルトヴィチルート内政・リトアニア問題
+	focus = {
+		id = POL_cement_his_legacy
+		icon = "GFX_focus_POL_consolidate_sanation_government"
+		prerequisite = {
+			focus = POL_SL_and_PPS_Coalition_victory
+		}
+		relative_position_id = POL_SL_and_PPS_Coalition_victory
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここからナルトヴィチ内政のサブツリー
+	focus = {
+		id = POL_accept_KPP
+		icon = "GFX_focus_generic_soviet_politics"
+		prerequisite = {
+			focus = POL_cement_his_legacy
+		}
+		relative_position_id = POL_cement_his_legacy
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POL_reconcile_with_NDP
+		icon = "GFX_focus_generic_diplomatic_treaty"
+		prerequisite = {
+			focus = POL_accept_KPP
+		}
+		relative_position_id = POL_accept_KPP
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POL_united_under_the_flag
+		icon = "GFX_focus_generic_polish_deal"
+		prerequisite = {
+			focus = POL_reconcile_with_NDP
+		}
+		relative_position_id = POL_reconcile_with_NDP
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここからリトアニア問題のサブツリー
+	focus = {
+		id = POL_the_lithuanian_problem
+		icon = "GFX_focus_LIT_restore_the_grand_duchy"
+		prerequisite = {
+			focus = POL_cement_his_legacy
+		}
+		relative_position_id = POL_cement_his_legacy
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POL_reach_out_to_brother
+		icon = "GFX_goal_generic_improve_relations"
+		prerequisite = {
+			focus = POL_the_lithuanian_problem
+		}
+		relative_position_id = POL_the_lithuanian_problem
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POL_poland_lithuania_reborn
+		icon = "GFX_focus_LIT_restore_order"
+		prerequisite = {
+			focus = POL_reach_out_to_brother
+		}
+		relative_position_id = POL_reach_out_to_brother
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = POL_political_issues_solved
+		icon = "GFX_focus_generic_self_management"
+		prerequisite = {
+			focus = POL_united_under_the_flag
+		}
+		prerequisite = {
+			focus = POL_neutral_yet_friendly
+		}
+		prerequisite = {
+			focus = POL_poland_lithuania_reborn
+		}
+		relative_position_id = POL_united_under_the_flag
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここから国民民主党ルートのNF
+	# focus = {
+	# 	id = NDP_victory
+	# 	icon = "GFX_focus_focus_fra_fascist_threat"
+	# 	x = 11
+	# 	y = 0
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+	# focus = {
+	# 	id = national_reforms
+	# 	icon = "GFX_focus_POL_common_organization_of_society"
+	# 	prerequisite = {
+	# 		focus = NDP_victory
+	# 	}
+	# 	relative_position_id = NDP_victory
+	# 	x = 0
+	# 	y = 1
+	# 	cost = 10
+	# 	ai_will_do = {
+	# 		factor = 100
+	# 	}
+	# 	completion_reward = {
+	# 	}
+	# }
+}
