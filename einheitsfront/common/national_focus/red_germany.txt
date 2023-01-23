@@ -1,0 +1,888 @@
+#ブハーリンルートの赤化ドイツNFです
+focus_tree = {
+	id = [GER]_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = [GER]
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 50
+		y = 1900
+	}
+	#ここから初期のカウツキー率いるUSPD=SPD連立政権NF
+	focus = {
+		id = GER_proclaim_luxemburgism
+		icon = "GFX_focus_prc_agrarian_socialism"
+		x = 3
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここからツリーの左側
+	focus = {
+		id = GER_ban_feudal_classes
+		icon = "GFX_goal_tfv_burn_the_royal_portraits"
+		prerequisite = {
+			focus = GER_proclaim_luxemburgism
+		}
+		relative_position_id = GER_proclaim_luxemburgism
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_purge_some_despots
+		icon = "GFX_focus_eng_move_to_secure_the_dominions"
+		prerequisite = {
+			focus = GER_ban_feudal_classes
+		}
+		relative_position_id = GER_ban_feudal_classes
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_take_from_the_rich
+		icon = "GFX_focus_spr_class_war"
+		prerequisite = {
+			focus = GER_ban_feudal_classes
+		}
+		relative_position_id = GER_ban_feudal_classes
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_brush_the_speakers
+		icon = "GFX_focus_por_workers_of_iberia"
+		prerequisite = {
+			focus = GER_purge_some_despots
+		}
+		relative_position_id = GER_purge_some_despots
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_renovate_the_views
+		icon = "GFX_focus_spr_masters_of_our_own_fate"
+		prerequisite = {
+			focus = GER_brush_the_speakers
+		}
+		relative_position_id = GER_brush_the_speakers
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_temporary_relief
+		icon = "GFX_focus_generic_concessions"
+		prerequisite = {
+			focus = GER_renovate_the_views
+		}
+		relative_position_id = GER_renovate_the_views
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_state_run_business
+		icon = "GFX_focus_hol_abandon_the_gold_standard"
+		prerequisite = {
+			focus = GER_temporary_relief
+		}
+		relative_position_id = GER_temporary_relief
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここからカウツキーツリーの右側
+	focus = {
+		id = GER_advocate_agriculture
+		icon = "GFX_focus_SOV_breadbasket_of_the_union"
+		prerequisite = {
+			focus = GER_proclaim_luxemburgism
+		}
+		relative_position_id = GER_proclaim_luxemburgism
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_liberate_poor_peasants
+		icon = "GFX_focus_CZE_german_puppet"
+		prerequisite = {
+			focus = GER_advocate_agriculture
+		}
+		relative_position_id = GER_advocate_agriculture
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_give_farming_equipment
+		icon = "GFX_goal_generic_construct_civilian"
+		prerequisite = {
+			focus = GER_liberate_poor_peasants
+		}
+		prerequisite = {
+			focus = GER_take_from_the_rich
+		}
+		relative_position_id = GER_liberate_poor_peasants
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_replace_livestocks
+		icon = "GFX_ger_livestock_question"
+		prerequisite = {
+			focus = GER_give_farming_equipment
+		}
+		relative_position_id = GER_give_farming_equipment
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_crops_to_live
+		icon = "GFX_ger_farmers_trade"
+		prerequisite = {
+			focus = GER_replace_livestocks
+		}
+		relative_position_id = GER_replace_livestocks
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_agricultural_advisors
+		icon = "GFX_focus_generic_military_academy"
+		prerequisite = {
+			focus = GER_crops_to_live
+		}
+		relative_position_id = GER_crops_to_live
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_presidential_elections
+		icon = "GFX_ger_vote_1936"
+		prerequisite = {
+			focus = GER_state_run_business
+		}
+		prerequisite = {
+			focus = GER_agricultural_advisors
+		}
+		relative_position_id = GER_agricultural_advisors
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここからルート確定サブツリー
+	focus = {
+		id = GER_KPD_general_assembly
+		icon = "GFX_focus_generic_military_academy"
+		mutually_exclusive = {
+			focus = GER_USPD_SPD_coalition
+			focus = GER_the_third_option
+		}
+		prerequisite = {
+			focus = GER_presidential_elections
+		}
+		relative_position_id = GER_presidential_elections
+		x = -3
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_path_of_leninism
+		icon = "GFX_focus_SOV_the_path_of_marxism_leninism"
+		prerequisite = {
+			focus = GER_KPD_general_assembly
+		}
+		relative_position_id = GER_KPD_general_assembly
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_USPD_SPD_coalition
+		icon = "GFX_focus_generic_military_academy"
+		mutually_exclusive = {
+			focus = GER_KPD_general_assembly
+			focus = GER_the_third_option
+		}
+		prerequisite = {
+			focus = GER_presidential_elections
+		}
+		relative_position_id = GER_presidential_elections
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_hardliners
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_the_moderates
+		}
+		prerequisite = {
+			focus = GER_USPD_SPD_coalition
+		}
+		relative_position_id = GER_USPD_SPD_coalition
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_moderates
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_the_hardliners
+		}
+		prerequisite = {
+			focus = GER_USPD_SPD_coalition
+		}
+		relative_position_id = GER_USPD_SPD_coalition
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_third_option
+		icon = "GFX_focus_generic_military_academy"
+		mutually_exclusive = {
+			focus = GER_KPD_general_assembly
+			focus = GER_USPD_SPD_coalition
+		}
+		prerequisite = {
+			focus = GER_presidential_elections
+		}
+		relative_position_id = GER_presidential_elections
+		x = 4
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_nation_and_socialism
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_dreams_of_rev_republic
+		}
+		prerequisite = {
+			focus = GER_the_third_option
+		}
+		relative_position_id = GER_the_third_option
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_dreams_of_rev_republic
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_nation_and_socialism
+		}
+		prerequisite = {
+			focus = GER_the_third_option
+		}
+		relative_position_id = GER_the_third_option
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_president_elected
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_the_hardliners
+			focus = GER_the_moderates
+			focus = GER_the_path_of_leninism
+			focus = GER_nation_and_socialism
+			focus = GER_dreams_of_rev_republic
+		}
+		relative_position_id = GER_the_hardliners
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここから戦争ツリー
+	focus = {
+		id = GER_austrian_comrades
+		icon = "GFX_focus_prc_agrarian_socialism"
+		x = 13
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_until_we_meet_again
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_welcome_to_the_rate
+		}
+		prerequisite = {
+			focus = GER_austrian_comrades
+		}
+		relative_position_id = GER_austrian_comrades
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_welcome_to_the_rate
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_until_we_meet_again
+		}
+		prerequisite = {
+			focus = GER_austrian_comrades
+		}
+		relative_position_id = GER_austrian_comrades
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_the_eastern_territories
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_welcome_to_the_rate
+			focus = GER_until_we_meet_again
+		}
+		relative_position_id = GER_until_we_meet_again
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_negotiate_with_poland
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_the_eastern_territories
+		}
+		relative_position_id = GER_the_eastern_territories
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここからポーランドとの一対一での交渉ルート
+	focus = {
+		id = GER_perserevant_talks
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_assistance_from_USSR
+		}
+		prerequisite = {
+			focus = GER_negotiate_with_poland
+		}
+		relative_position_id = GER_negotiate_with_poland
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_promise_of_equality
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_perserevant_talks
+		}
+		relative_position_id = GER_perserevant_talks
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_liberalization_of_danzig
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_promise_of_equality
+		}
+		relative_position_id = GER_promise_of_equality
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_guarantee_economic_aid
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_liberalization_of_danzig
+		}
+		relative_position_id = GER_liberalization_of_danzig
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここからポーランドとの交渉においてソ連に加勢してもらうルート
+	focus = {
+		id = GER_assistance_from_USSR
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_perserevant_talks
+		}
+		prerequisite = {
+			focus = GER_negotiate_with_poland
+		}
+		relative_position_id = GER_negotiate_with_poland
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_self_determination_above_all
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_assistance_from_USSR
+		}
+		relative_position_id = GER_assistance_from_USSR
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_deep_battle_pros
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_self_determination_above_all
+		}
+		relative_position_id = GER_self_determination_above_all
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_they_wont_betray_us
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_deep_battle_pros
+		}
+		relative_position_id = GER_deep_battle_pros
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_land_given_back
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_guarantee_economic_aid
+			focus = GER_they_wont_betray_us
+		}
+		relative_position_id = GER_guarantee_economic_aid
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_eastern_land_united
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_land_given_back
+		}
+		relative_position_id = GER_land_given_back
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#ここからラインラント問題サブツリー
+	focus = {
+		id = GER_rhineland_problem
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_eastern_land_united
+		}
+		relative_position_id = GER_eastern_land_united
+		x = -2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_open_clash_with_french
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_nederland_plan
+		}
+		prerequisite = {
+			focus = GER_rhineland_problem
+		}
+		relative_position_id = GER_rhineland_problem
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_eye_for_an_eye
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_open_clash_with_french
+		}
+		relative_position_id = GER_open_clash_with_french
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_nederland_plan
+		icon = "GFX_focus_prc_agrarian_socialism"
+		mutually_exclusive = {
+			focus = GER_open_clash_with_french
+		}
+		prerequisite = {
+			focus = GER_rhineland_problem
+		}
+		relative_position_id = GER_rhineland_problem
+		x = -1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_westminsters_alarming
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_nederland_plan
+		}
+		relative_position_id = GER_nederland_plan
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_rhine_factories_revived
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_eye_for_an_eye
+			focus = GER_westminsters_alarming
+		}
+		relative_position_id = GER_westminsters_alarming
+		x = 1
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_cut_ties_with_capitalists
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_rhine_factories_revived
+		}
+		relative_position_id = GER_rhine_factories_revived
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_second_world_war
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_cut_ties_with_capitalists
+		}
+		relative_position_id = GER_cut_ties_with_capitalists
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	#バルカン・東欧などツリー
+	focus = {
+		id = GER_look_to_the_balkans
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_eastern_land_united
+		}
+		relative_position_id = GER_eastern_land_united
+		x = 2
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_further_relations_with_hungary
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_look_to_the_balkans
+		}
+		relative_position_id = GER_look_to_the_balkans
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_romanian_humanitarian_crisis
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_further_relations_with_hungary
+		}
+		relative_position_id = GER_further_relations_with_hungary
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = GER_stop_the_ukrainian_madness
+		icon = "GFX_focus_prc_agrarian_socialism"
+		prerequisite = {
+			focus = GER_romanian_humanitarian_crisis
+		}
+		relative_position_id = GER_romanian_humanitarian_crisis
+		x = 0
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		}
+	}
+}
