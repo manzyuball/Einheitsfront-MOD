@@ -1,0 +1,19 @@
+state = {
+	id = 911
+	name="STATE_911"
+	state_category=rural
+	manpower=17770800
+	history = {
+		owner = ZHC
+		add_core_of = CHI
+		add_core_of = ZHC
+		
+		
+		victory_points = {
+			4619 5 
+		}
+	}
+	provinces = {
+		1036 4619 4631 7167 7637 9959 10462 12467 
+	}
+}

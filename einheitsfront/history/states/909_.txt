@@ -1,0 +1,20 @@
+state = {
+	id = 909
+	name="STATE_909"
+	state_category=rural
+	manpower=400000
+	history = {
+		owner = PRC
+		add_core_of = CHI
+		add_core_of = TIB
+		add_core_of = PRC
+		
+		victory_points = {
+			10856 1
+		}
+		
+	}
+	provinces = {
+		4407 5102 10856
+	}
+}

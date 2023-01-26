@@ -1,0 +1,18 @@
+state = {
+	id = 910
+	name="STATE_910"
+	state_category=enclave
+	manpower=1
+	history = {
+		owner = ENG
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		victory_points = {
+			13257 5
+		}
+	}
+	provinces = {
+		13257
+	}
+}

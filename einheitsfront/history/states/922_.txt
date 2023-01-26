@@ -1,0 +1,19 @@
+state = {
+	id = 922
+	name="STATE_922"
+	state_category=wasteland
+	manpower = 2520975
+	history = {
+		owner = UKR
+		add_core_of = POL
+		add_core_of = UKR
+		
+		victory_points = {
+			11479 3
+		}
+		
+	}
+	provinces = {
+		536 6431 6460 6483 9468 11479 
+	}
+}

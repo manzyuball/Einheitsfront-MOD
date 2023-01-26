@@ -1,0 +1,16 @@
+state = {
+	id = 917
+	name="STATE_917"
+	state_category=wasteland
+	manpower = 6090
+	impassable = yes
+	history = {
+		owner = ENG
+		add_core_of = LBA
+		
+		
+	}
+	provinces = {
+		13260 
+	}
+}

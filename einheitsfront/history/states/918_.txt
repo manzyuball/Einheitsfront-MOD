@@ -1,0 +1,16 @@
+state = {
+	id = 918
+	name="STATE_918"
+	state_category=wasteland
+	manpower = 6090
+	impassable = yes
+	history = {
+		owner = SEC
+		add_core_of = LBA
+		
+		
+	}
+	provinces = {
+		7985 12022 12082 13264 
+	}
+}

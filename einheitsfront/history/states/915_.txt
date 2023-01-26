@@ -1,0 +1,16 @@
+state = {
+	id = 915
+	name="STATE_915"
+	state_category=wasteland
+	manpower = 6090
+	impassable = yes
+	history = {
+		owner = FRA
+		add_core_of = LBA
+		
+		
+	}
+	provinces = {
+		13262 13263 
+	}
+}

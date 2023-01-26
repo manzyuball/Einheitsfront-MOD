@@ -1,0 +1,38 @@
+
+state={
+	id=161
+	name="STATE_161"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = NIT
+		victory_points = {
+			6606 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+			782 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = NIT
+
+		victory_points = {
+			925 1 
+		}
+	}
+
+	provinces={
+		782 925 967 3773 3976 6606 6790 6793 6926 6985 9752 9924 11861 
+	}
+	manpower=3202401
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

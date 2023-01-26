@@ -1,0 +1,16 @@
+state = {
+	id = 919
+	name="STATE_919"
+	state_category=wasteland
+	manpower = 6090
+	impassable = yes
+	history = {
+		owner = TOR
+		add_core_of = LBA
+		
+		
+	}
+	provinces = {
+		4962 10884 12866
+	}
+}

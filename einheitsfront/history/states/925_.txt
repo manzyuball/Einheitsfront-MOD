@@ -1,0 +1,14 @@
+state = {
+	id = 925
+	name="STATE_925"
+	state_category=town
+	manpower = 144287
+	history = {
+		owner = PDS
+		add_core_of = GER
+		
+	}
+	provinces = {
+		11560 
+	}
+}
