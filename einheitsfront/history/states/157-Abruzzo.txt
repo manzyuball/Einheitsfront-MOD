@@ -1,0 +1,32 @@
+
+state={
+	id=157
+	name="STATE_157"
+
+	history={
+		owner = SIT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			925 = {
+				naval_base = 4
+
+			}
+			6831 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SIT
+
+	}
+
+	provinces={
+		963 3910 3923 3966 6831 9838 11790 
+	}
+	manpower=2979335
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

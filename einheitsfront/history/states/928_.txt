@@ -1,0 +1,23 @@
+state = {
+	id = 928
+	name = "STATE_928"
+	mampower = 1
+	state_category = rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = KAR
+		add_core_of = FIN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		86 94 155 3008 3078 3189 6021 6029 6090 6159 9045 9055 9195 11094 11175 11212 
+	}
+
+
+
+}

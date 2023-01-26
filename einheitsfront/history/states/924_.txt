@@ -1,0 +1,23 @@
+state = {
+	id = 924
+	name="STATE_924"
+	state_category=town
+	manpower = 3072371
+	history = {
+		owner = PDS
+		add_core_of = GER
+		victory_points = {
+			3444 5
+		}
+		victory_points = {
+			3547 1
+		}
+		victory_points = {
+			587 5 
+		}
+		
+	}
+	provinces = {
+		587 3444 3547 9522
+	}
+}

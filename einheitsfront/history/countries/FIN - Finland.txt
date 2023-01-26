@@ -1,0 +1,30 @@
+﻿capital = 111
+
+set_research_slots = 3
+set_convoys = 0
+set_stability = 0.30
+set_war_support = 0.30
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.7.5"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+set_popularities = {
+	communism = 100
+}
+
+add_ideas = {
+}
+
+#create_country_leader = {
+#	name = "しれーかんさん"
+#	desc = "今やドイツはアメリカの占領下にある。"
+#	picture = "gfx/leaders/USA/Portrait_しれーかんさん.dds"
+#	expire = "1965.1.1"
+#	ideology = centrism
+#	traits = {		
+#	}
+#}

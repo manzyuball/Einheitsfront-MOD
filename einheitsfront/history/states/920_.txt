@@ -1,0 +1,15 @@
+state = {
+	id = 920
+	name="STATE_920"
+	state_category=wasteland
+	manpower = 6607
+	history = {
+		owner = TOR
+		add_core_of = LBA
+		
+		
+	}
+	provinces = {
+		7136 13073
+	}
+}

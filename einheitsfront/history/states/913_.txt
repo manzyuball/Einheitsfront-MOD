@@ -1,0 +1,15 @@
+state = {
+	id = 913
+	name="STATE_913"
+	state_category=large_town
+	manpower = 3000
+	history = {
+		owner = BEL
+		add_core_of = GER
+		
+		
+	}
+	provinces = {
+		3488 13258 
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=662
+	name="STATE_662"
+	manpower = 6606
+	
+	state_category = wasteland
+	
+	
+	history={
+		owner = SEC
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = LBA
+	}
+	
+	provinces={
+		4200 7076 8069 
+	}
+
+	local_supplies=0.0 
+}
