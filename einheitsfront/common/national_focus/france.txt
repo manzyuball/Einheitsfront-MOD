@@ -1,0 +1,834 @@
+﻿focus_tree = {
+	id = french_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+
+	
+	default = no
+	#### END ####
+	focus = {
+		id = FRA_g1
+		icon = "GFX_focus_fra_milice"
+		x = 4
+		y = 0
+		prerequisite = {}
+		mutually_exclusive = { }
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			army_experience = 150
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 1
+				uses = 3
+				category = land_doctrine
+			}
+		}
+	}
+	focus = {
+		id = FRA_g2
+		icon = "GFX_focus_ETH_freedom_at_gunpoint"
+		x = 0
+		y = 1
+		prerequisite = { focus = FRA_g1 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			add_ideas = {
+				FRA_RIKU
+			}
+		}
+	}
+	focus = {
+		id = FRA_g3
+		icon = "GFX_focus_SWI_fortify_border_with_france"
+		x = 0
+		y = 2
+		prerequisite = { focus = FRA_g2 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_RIKU
+				add_idea = FRA_RIKU1
+				}
+		}
+	}
+	focus = {
+		id = FRA_g4
+		icon = "GFX_focus_generic_truck"
+		x = 0
+		y = 3
+		prerequisite = { focus = FRA_g3 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_RIKU1
+				add_idea = FRA_RIKU2
+				}
+		}
+	}
+	focus = {
+		id = FRA_g5
+		icon ="GFX_goal_generic_air_fighter"
+		x = -2
+		y = 1
+		prerequisite = { focus = FRA_g1 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 1.0
+				uses = 2
+				technology = early_fighter
+				technology = fighter1
+				technology = fighter2
+				technology = fighter3
+				technology = heavy_fighter1
+				technology = heavy_fighter2
+				technology = heavy_fighter3
+			}
+		}
+	}
+	focus = {
+		id = FRA_g6
+		icon ="GFX_focus_generic_copy_plane_designs"
+		x = -2
+		y = 2
+		prerequisite = { focus = FRA_g5 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			add_ideas = {
+				FRA_KUU
+			}
+		}
+	}
+	focus = {
+		id = FRA_g7
+		icon = "GFX_focus_SOV_women_in_aviation"
+		x = -2
+		y = 3
+		prerequisite = { focus = FRA_g6 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_KUU
+				add_idea = FRA_KUU1
+				}
+		}
+	}
+	focus = {
+		id = FRA_g8
+		icon = "GFX_goal_generic_navy_battleship"
+		x = -4
+		y = 1
+		prerequisite = { focus = FRA_g1 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			add_ideas = {
+				FRA_KAI
+			}
+		}
+	}
+	focus = {
+		id = FRA_g9
+		icon = "GFX_focus_generic_refit_civilian_ships"
+		x = -4
+		y = 2
+		prerequisite = { focus = FRA_g8 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = FRA_g10
+		icon = "GFX_focus_generic_midget_submarines"
+		x = -4
+		y = 3
+		prerequisite = { focus = FRA_g9 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_KAI
+				add_idea = FRA_KAI2
+				}
+			add_tech_bonus = {
+				bonus = 1.0
+				ahead_reduction = 2
+				uses = 2
+				category = ss_tech
+			}
+		}
+	}
+	focus = {
+		id = FRA_g12
+		icon = "GFX_focus_generic_military_academy"
+		x = 2
+		y = 1
+		prerequisite = { focus = FRA_g1 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_OLD_ARMY
+				add_idea = FRA_OLD_ARMY1
+				}
+		}
+	}
+	focus = {
+		id = FRA_g13
+		icon = "GFX_goal_generic_allies_build_infantry"
+		x = 2
+		y = 2
+		prerequisite = { focus = FRA_g12 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_OLD_ARMY1
+				add_idea = FRA_OLD_ARMY2
+				}
+		}
+	}
+	focus = {
+		id = FRA_g14
+		icon = "GFX_focus_generic_tank_air_support"
+		x = 2
+		y = 3
+		prerequisite = { focus = FRA_g13 }
+		mutually_exclusive = { }
+		relative_position_id = FRA_g1
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+		}
+		bypass = {
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = FRA_OLD_ARMY2
+				add_idea = FRA_OLD_ARMY3
+				}
+		}
+	}
+
+
+
+
+
+
+
+
+#####################################################
+
+
+
+
+
+focus = {
+	id = FRA_n1
+	icon = "GFX_focus_POL_warsaw_main_station"
+	x = 10
+	y = 0
+
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+     add_ideas = {
+		 FRA_SAN
+	 }
+	}
+}
+focus = {
+	id = FRA_n2
+	icon = "GFX_focus_mex_privatisation"
+	x = 3
+	y = 1
+	prerequisite = { Focus = FRA_n1 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = FRA_SAN
+			add_idea = FRA_SAN1
+			}
+	}
+}
+focus = {
+	id = FRA_n3
+	icon = "GFX_goal_generic_construct_civ_factory"
+	x = 0
+	y = 1
+	prerequisite = { Focus = FRA_n1 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = FRA_n4
+	icon = "GFX_focus_generic_hydroelectric_energy"
+	x = -2
+	y = 1
+	prerequisite = { Focus = FRA_n1 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = FRA_n5
+	icon = "GFX_focus_generic_improve_roads"
+	x = -2
+	y = 2
+	prerequisite = { Focus = FRA_n4 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		add_stability = 0.15
+	}
+}
+focus = {
+	id = FRA_n6
+	icon = "GFX_focus_generic_industry_3"
+	x = 0
+	y = 2
+	prerequisite = { Focus = FRA_n3 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		29 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		785 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		15 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		14 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = FRA_n7
+	icon = "GFX_goal_generic_position_armies"
+	x = 2
+	y = 2
+	prerequisite = { Focus = FRA_n3 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+
+	}
+}
+focus = {
+	id = FRA_n8
+	icon = "GFX_goal_generic_intelligence_exchange"
+	x = 4
+	y = 2
+	prerequisite = { Focus = FRA_n2 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		swap_ideas = {
+			remove_idea = FRA_SAN1
+			add_idea = FRA_SAN2
+			}
+	}
+}
+focus = {
+	id = FRA_n9
+	icon = "GFX_focus_research2"
+	x = 4
+	y = 3
+	prerequisite = { Focus = FRA_n8 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		add_research_slot = 1
+	}
+}
+focus = {
+	id = FRA_n10
+	icon ="GFX_goal_reichsautobahn"
+	x = 2
+	y = 3
+	prerequisite = { Focus = FRA_n7 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+	}
+}
+focus = {
+	id = FRA_n11
+	icon = "GFX_focus_generic_tank_production"
+	x = 0
+	y = 3
+	prerequisite = { Focus = FRA_n6 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+focus = {
+	id = FRA_n12
+	icon = "GFX_focus_generic_land_reclamation"
+	x = 0
+	y = 4
+	prerequisite = { Focus = FRA_n11 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		every_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 1
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+	  }
+	}
+}
+focus = {
+	id = FRA_n13
+	icon = "GFX_focus_generic_population_growth"
+	x = 2
+	y = 4
+	prerequisite = { Focus = FRA_n11 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		every_owned_state = {
+			add_extra_state_shared_building_slots = 2
+	  }
+	}
+}
+focus = {
+	id = FRA_n14
+	icon = "GFX_focus_wonderweapons"
+	x = 4
+	y = 4
+	prerequisite = { Focus = FRA_n11 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1.0
+			uses = 3
+			category = nuclear
+			category = rocketry
+		}
+	}
+}
+focus = {
+	id = FRA_n15
+	icon = "GFX_goal_generic_oil_refinery"
+	x = -2
+	y = 4
+	prerequisite = { Focus = FRA_n5 }
+	relative_position_id = FRA_n1
+	cost = 10
+
+	ai_will_do = {
+		factor = 10
+	}
+
+	available = {
+	}
+	bypass = {
+
+	}
+
+	completion_reward = {
+		460 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		459 = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+}
