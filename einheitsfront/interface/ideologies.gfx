@@ -1,0 +1,50 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_national_socialism_group"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_strasserism"
+		texturefile = "gfx/interface/ideologies/national_socialism/strasserism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_national_syndicalism"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_syndicalism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_vanguard_socialism_group"
+		texturefile = "gfx/interface/ideologies/vanguard_socialism/vanguard_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_leninism"
+		texturefile = "gfx/interface/ideologies/vanguard_socialism/leninism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_stalinism"
+		texturefile = "gfx/interface/ideologies/vanguard_socialism/stalinism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_popular_socialism_group"
+		texturefile = "gfx/interface/ideologies/popular_socialism/popular_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_luxemburgism"
+		texturefile = "gfx/interface/ideologies/popular_socialism/luxemburgism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_revisionist_socialism_group"
+		texturefile = "gfx/interface/ideologies/revisionist_socialism/revisionist_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_democracy"
+		texturefile = "gfx/interface/ideologies/revisionist_socialism/social_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_agrarian_socialism"
+		texturefile = "gfx/interface/ideologies/revisionist_socialism/agrarian_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_bukharinism"
+		texturefile = "gfx/interface/ideologies/revisionist_socialism/bukharinism.png"
+	}
+}
