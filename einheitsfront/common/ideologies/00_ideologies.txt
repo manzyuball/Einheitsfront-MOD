@@ -1,0 +1,238 @@
+ideologies = {
+	national_socialism = {
+		types = {
+			national_socialism_generic = {
+			}
+			strasserism = {
+				can_be_randomly_selected = no
+			}
+			national_syndicalism = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			97
+			0
+			0
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_communist = yes
+	}
+	vanguard_socialism = {
+		types = {
+			vanguard_socialism_generic = {
+			}
+			leninism = {
+				can_be_randomly_selected = no
+			}
+			stalinism = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			166
+			7
+			7
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_communist = yes
+	}
+	popular_socialism = {
+		types = {
+			popular_socialism_generic = {
+			}
+			luxemburgism = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			255
+			0
+			0
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_communist = yes
+	}
+	revisionist_socialism = {
+		types = {
+			revisionist_socialism_generic = {
+			}
+			social_democracy = {
+				can_be_randomly_selected = no
+			}
+			agrarian_socialism = {
+				can_be_randomly_selected = no
+			}
+			bukharinism = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			246
+			139
+			31
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	progressivism = {
+		types = {
+			progressivism_generic = {
+			}
+			social_patriotism = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			194
+			30
+			86
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	liberalism = {
+		types = {
+			liberalism_generic = {
+			}
+			national_liberalism = {
+				can_be_randomly_selected = no
+			}
+			social_liberalism = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			15
+			172
+			219
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	conservatism = {
+		types = {
+			conservatism_generic = {
+			}
+			national_conservatism = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			0
+			0
+			255
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	paternalism = {
+		types = {
+			paternalism_generic = {
+			}
+			corrupt_democracy = {
+				can_be_randomly_selected = no
+			}
+			authoritarian_democracy = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			110
+			110
+			110
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	despotism = {
+		types = {
+			despotism_generic = {
+			}
+			civil_despot = {
+				can_be_randomly_selected = no
+			}
+			military_junta = {
+				can_be_randomly_selected = no
+			}
+			absolute_monarchy = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			142
+			57
+			0
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+	ultranationalism = {
+		types = {
+			ultranationalism_generic = {
+			}
+			ultramilitarism = {
+				can_be_randomly_selected = no
+			}
+			integralism = {
+				can_be_randomly_selected = no
+			}
+			fascism = {
+				can_be_randomly_selected = no
+			}
+			esoteric_racism = {
+				can_be_randomly_selected = no
+			}
+			corporatism = {
+				can_be_randomly_selected = no
+			}
+		}
+		color = {
+			80
+			0
+			84
+		}
+		can_host_government_in_exile = no
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.3
+		can_be_boosted = yes
+		can_collaborate = yes
+		ai_fascist = yes
+	}
+}
