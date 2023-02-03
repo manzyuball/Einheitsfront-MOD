@@ -5,6 +5,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/national_socialism/national_socialism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_national_socialism_generic"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_socialism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_strasserism"
 		texturefile = "gfx/interface/ideologies/national_socialism/strasserism.png"
 	}
@@ -15,6 +19,10 @@ spriteTypes = {
 	#ここから前衛社会主義
 	spriteType = {
 		name = "GFX_ideology_vanguard_socialism_group"
+		texturefile = "gfx/interface/ideologies/vanguard_socialism/vanguard_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_vanguard_socialism_generic"
 		texturefile = "gfx/interface/ideologies/vanguard_socialism/vanguard_socialism.png"
 	}
 	spriteType = {
@@ -31,12 +39,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/popular_socialism/popular_socialism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_popular_socialism_generic"
+		texturefile = "gfx/interface/ideologies/popular_socialism/popular_socialism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_luxemburgism"
 		texturefile = "gfx/interface/ideologies/popular_socialism/luxemburgism.png"
 	}
 	#ここから修正社会主義
 	spriteType = {
 		name = "GFX_ideology_revisionist_socialism_group"
+		texturefile = "gfx/interface/ideologies/revisionist_socialism/revisionist_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_revisionist_socialism_generic"
 		texturefile = "gfx/interface/ideologies/revisionist_socialism/revisionist_socialism.png"
 	}
 	spriteType = {
@@ -57,12 +73,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/progressivism/progressivism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_progressivism_generic"
+		texturefile = "gfx/interface/ideologies/progressivism/progressivism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_social_patriotism"
 		texturefile = "gfx/interface/ideologies/progressivism/social_patriotism.png"
 	}
 	#ここから自由主義
 	spriteType = {
 		name = "GFX_ideology_liberalism_group"
+		texturefile = "gfx/interface/ideologies/liberalism/liberalism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_liberalism_generic"
 		texturefile = "gfx/interface/ideologies/liberalism/liberalism.png"
 	}
 	spriteType = {
@@ -79,12 +103,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/conservatism/conservatism.png"
 	}
 	spriteType = {
+		name = "GFX_ideology_conservatism_generic"
+		texturefile = "gfx/interface/ideologies/conservatism/conservatism.png"
+	}
+	spriteType = {
 		name = "GFX_ideology_national_conservatism"
 		texturefile = "gfx/interface/ideologies/conservatism/national_conservatism.png"
 	}
 	#ここから父権主義
 	spriteType = {
 		name = "GFX_ideology_paternalism_group"
+		texturefile = "gfx/interface/ideologies/paternalism/paternalism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_paternalism_generic"
 		texturefile = "gfx/interface/ideologies/paternalism/paternalism.png"
 	}
 	spriteType = {
@@ -98,6 +130,10 @@ spriteTypes = {
 	#ここから専制主義
 	spriteType = {
 		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despotism/despotism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_despotism_generic"
 		texturefile = "gfx/interface/ideologies/despotism/despotism.png"
 	}
 	spriteType = {
@@ -115,6 +151,10 @@ spriteTypes = {
 	#ここから超国家主義
 	spriteType = {
 		name = "GFX_ideology_ultranationalism_group"
+		texturefile = "gfx/interface/ideologies/ultranationalism/ultranationalism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_ultranationalism_generic"
 		texturefile = "gfx/interface/ideologies/ultranationalism/ultranationalism.png"
 	}
 	spriteType = {

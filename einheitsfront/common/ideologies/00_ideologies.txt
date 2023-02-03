@@ -1,6 +1,8 @@
 ideologies = {
 	national_socialism = {
 		types = {
+			national_socialism_generic = {
+			}
 			strasserism = {
 				can_be_randomly_selected = no
 			}
@@ -22,6 +24,8 @@ ideologies = {
 	}
 	vanguard_socialism = {
 		types = {
+			vanguard_socialism_generic = {
+			}
 			leninism = {
 				can_be_randomly_selected = no
 			}
@@ -43,6 +47,8 @@ ideologies = {
 	}
 	popular_socialism = {
 		types = {
+			popular_socialism_generic = {
+			}
 			luxemburgism = {
 				can_be_randomly_selected = no
 			}
@@ -61,6 +67,8 @@ ideologies = {
 	}
 	revisionist_socialism = {
 		types = {
+			revisionist_socialism_generic = {
+			}
 			social_democracy = {
 				can_be_randomly_selected = no
 			}
@@ -85,6 +93,8 @@ ideologies = {
 	}
 	progressivism = {
 		types = {
+			progressivism_generic = {
+			}
 			social_patriotism = {
 				can_be_randomly_selected = no
 			}
@@ -103,6 +113,8 @@ ideologies = {
 	}
 	liberalism = {
 		types = {
+			liberalism_generic = {
+			}
 			national_liberalism = {
 				can_be_randomly_selected = no
 			}
@@ -124,6 +136,8 @@ ideologies = {
 	}
 	conservatism = {
 		types = {
+			conservatism_generic = {
+			}
 			national_conservatism = {
 				can_be_randomly_selected = no
 			}
@@ -142,6 +156,8 @@ ideologies = {
 	}
 	paternalism = {
 		types = {
+			paternalism_generic = {
+			}
 			corrupt_democracy = {
 				can_be_randomly_selected = no
 			}
@@ -163,6 +179,8 @@ ideologies = {
 	}
 	despotism = {
 		types = {
+			despotism_generic = {
+			}
 			civil_despot = {
 				can_be_randomly_selected = no
 			}
@@ -187,6 +205,8 @@ ideologies = {
 	}
 	ultranationalism = {
 		types = {
+			ultranationalism_generic = {
+			}
 			ultramilitarism = {
 				can_be_randomly_selected = no
 			}
