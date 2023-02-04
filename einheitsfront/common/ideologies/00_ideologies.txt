@@ -98,6 +98,9 @@ ideologies = {
 			social_patriotism = {
 				can_be_randomly_selected = no
 			}
+			tridemism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			194
@@ -220,6 +223,9 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			corporatism = {
+				can_be_randomly_selected = no
+			}
+			fundamentalism = {
 				can_be_randomly_selected = no
 			}
 		}

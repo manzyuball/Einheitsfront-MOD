@@ -80,6 +80,10 @@ spriteTypes = {
 		name = "GFX_ideology_social_patriotism"
 		texturefile = "gfx/interface/ideologies/progressivism/social_patriotism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_tridemism"
+		texturefile = "gfx/interface/ideologies/progressivism/tridemism.png"
+	}
 	#ここから自由主義
 	spriteType = {
 		name = "GFX_ideology_liberalism_group"
@@ -176,5 +180,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_corporatism"
 		texturefile = "gfx/interface/ideologies/ultranationalism/corporatism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_fundamentalism"
+		texturefile = "gfx/interface/ideologies/ultranationalism/fundamentalism.png"
 	}
 }
