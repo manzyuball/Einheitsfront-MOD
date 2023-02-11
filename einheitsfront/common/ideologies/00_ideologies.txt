@@ -9,6 +9,9 @@ ideologies = {
 			national_syndicalism = {
 				can_be_randomly_selected = no
 			}
+			corporatism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			97
@@ -220,9 +223,6 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			esoteric_racism = {
-				can_be_randomly_selected = no
-			}
-			corporatism = {
 				can_be_randomly_selected = no
 			}
 			fundamentalism = {
