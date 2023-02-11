@@ -18,7 +18,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_ideology_corporatism"
-		texturefile = "gfx/interface/ideologies/ultranationalism/corporatism.png"
+		texturefile = "gfx/interface/ideologies/national_socialism/corporatism.png"
 	}
 	#ここから前衛社会主義
 	spriteType = {
