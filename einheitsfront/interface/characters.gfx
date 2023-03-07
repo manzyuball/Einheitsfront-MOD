@@ -1,0 +1,35 @@
+spriteTypes = {
+	#ドイツのキャラたち
+	spriteType = {
+		name = GFX_portrait_GER_gregor_strasser
+		textureFile = gfx/leaders/GER/gregor_strasser.png
+	}
+	spriteType = {
+		name = GFX_portrait_GER_heinrich_brandler
+		textureFile = gfx/leaders/GER/brandler.png
+	}
+	spriteType = {
+		name = GFX_portrait_GER_karl_kautsky
+		textureFile = gfx/leaders/GER/karl_kautsky.png
+	}
+	spriteType = {
+		name = GFX_portrait_GER_rosa_luxemburg
+		textureFile = gfx/leaders/GER/rosa_luxemburg.png
+	}
+	spriteType = {
+		name = GFX_portrait_GER_otto_ruhle
+		textureFile = gfx/leaders/GER/otto_rhle.png
+	}
+	spriteType = {
+		name = GFX_portrait_GER_paul_levi
+		textureFile = gfx/leaders/GER/paul_levi.png
+	}
+	spriteType = {
+		name = GFX_portrait_GER_koch_weser
+		textureFile = gfx/leaders/GER/Erich_Koch-Weser.png
+	}
+	spriteType = {
+		name = GFX_portrait_GER_joseph_wirth
+		textureFile = gfx/leaders/GER/Joseph_Wirth.png
+	}
+}

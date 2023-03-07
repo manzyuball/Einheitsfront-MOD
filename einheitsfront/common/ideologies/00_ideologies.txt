@@ -55,6 +55,9 @@ ideologies = {
 			luxemburgism = {
 				can_be_randomly_selected = no
 			}
+			council_communism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			255
@@ -104,6 +107,9 @@ ideologies = {
 			tridemism = {
 				can_be_randomly_selected = no
 			}
+			christian_progressivism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			194
@@ -145,6 +151,9 @@ ideologies = {
 			conservatism_generic = {
 			}
 			national_conservatism = {
+				can_be_randomly_selected = no
+			}
+			christian_democracy = {
 				can_be_randomly_selected = no
 			}
 		}
