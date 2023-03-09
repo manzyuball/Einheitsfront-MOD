@@ -1,0 +1,99 @@
+characters = {
+	#ドイツの国家元首級の人々
+	GER_gregor_strasser = {
+		name = GER_gregor_strasser
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_gregor_strasser
+			}
+		}
+		country_leader = {
+			ideology = strasserism
+			desc = GER_gregor_strasser_desc
+		}
+	}
+	GER_heinrich_brandler = {
+		name = GER_heinrich_brandler
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_heinrich_brandler
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			desc = GER_heinrich_brandler_desc
+		}
+	}
+	GER_karl_kautsky = {
+		name = GER_karl_kautsky
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_karl_kautsky
+			}
+		}
+		country_leader = {
+			ideology = popular_socialism_generic
+			desc = GER_karl_kautsky_desc
+		}
+	}
+	GER_rosa_luxemburg = {
+		name = GER_rosa_luxemburg
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_rosa_luxemburg
+			}
+		}
+		country_leader = {
+			ideology = luxemburgism
+			desc = GER_rosa_luxemburg_desc
+		}
+	}
+	GER_otto_ruhle = {
+		name = GER_otto_ruhle
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_otto_ruhle
+			}
+		}
+		country_leader = {
+			ideology = council_communism
+			desc = GER_otto_ruhle_desc
+		}
+	}
+	GER_paul_levi = {
+		name = GER_paul_levi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_paul_levi
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			desc = GER_paul_levi_desc
+		}
+	}
+	GER_koch_weser = {
+		name = GER_koch_weser
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_koch_weser
+			}
+		}
+		country_leader = {
+			ideology = progressivism_generic
+			desc = GER_koch_weser_desc
+		}
+	}
+	GER_joseph_wirth = {
+		name = GER_joseph_wirth
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_joseph_wirth
+			}
+		}
+		country_leader = {
+			ideology = christian_progressivism
+			desc = GER_joseph_wirth_desc
+		}
+	}
+}

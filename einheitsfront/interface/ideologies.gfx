@@ -50,6 +50,10 @@ spriteTypes = {
 		name = "GFX_ideology_luxemburgism"
 		texturefile = "gfx/interface/ideologies/popular_socialism/luxemburgism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_council_communism"
+		texturefile = "gfx/interface/ideologies/popular_socialism/council_communism.png"
+	}
 	#ここから修正社会主義
 	spriteType = {
 		name = "GFX_ideology_revisionist_socialism_group"
@@ -88,6 +92,10 @@ spriteTypes = {
 		name = "GFX_ideology_tridemism"
 		texturefile = "gfx/interface/ideologies/progressivism/tridemism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_christian_progressivism"
+		texturefile = "gfx/interface/ideologies/progressivism/christian_progressivism.png"
+	}
 	#ここから自由主義
 	spriteType = {
 		name = "GFX_ideology_liberalism_group"
@@ -117,6 +125,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_national_conservatism"
 		texturefile = "gfx/interface/ideologies/conservatism/national_conservatism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_christian_democracy"
+		texturefile = "gfx/interface/ideologies/conservatism/christian_democracy.png"
 	}
 	#ここから父権主義
 	spriteType = {
