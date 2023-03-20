@@ -180,6 +180,7 @@ set_popularities = {
 	conservatism = 10
 }
 
+#国家元首級キャラクター達
 recruit_character = GER_gregor_strasser
 recruit_character = GER_heinrich_brandler
 recruit_character = GER_karl_kautsky
