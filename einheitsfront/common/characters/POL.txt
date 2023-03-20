@@ -1,0 +1,39 @@
+characters = {
+	#ポーランドの国家元首級の人々
+	POL_felix_dzerzhinski = {
+		name = POL_felix_dzerzhinski
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_felix_dzerzhinski
+			}
+		}
+		country_leader = {
+			ideology = luxemburgism
+			desc = POL_felix_dzerzhinski_desc
+		}
+	}
+	POL_gabriel_nartovich = {
+		name = POL_gabriel_nartovich
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_gabriel_nartovich
+			}
+		}
+		country_leader = {
+			ideology = progressivism_generic
+			desc = POL_gabriel_nartovich_desc
+		}
+	}
+	POL_roman_dmowski = {
+		name = POL_roman_dmowski
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_roman_dmowski
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism
+			desc = POL_roman_dmowski_desc
+		}
+	}
+}

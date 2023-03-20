@@ -1,5 +1,5 @@
 spriteTypes = {
-	#ドイツのキャラたち
+	#ドイツの国家元首たち
 	spriteType = {
 		name = GFX_portrait_GER_gregor_strasser
 		textureFile = gfx/leaders/GER/gregor_strasser.png
@@ -31,5 +31,18 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_portrait_GER_joseph_wirth
 		textureFile = gfx/leaders/GER/Joseph_Wirth.png
+	}
+	#ポーランドの国家元首たち
+	spriteType = {
+		name = GFX_portrait_POL_felix_dzerzhinski
+		textureFile = gfx/leaders/POL/Portrait_Poland_Felix_Dzerzhinski.dds
+	}
+	spriteType = {
+		name = GFX_portrait_POL_gabriel_nartovich
+		textureFile = gfx/leaders/POL/Portrait_Poland_Gabriel_Nartovich.dds
+	}
+	spriteType = {
+		name = GFX_portrait_POL_roman_dmowski
+		textureFile = gfx/leaders/POL/Portrait_Poland_Roman_Dmowski.dds
 	}
 }
