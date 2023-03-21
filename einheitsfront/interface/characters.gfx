@@ -32,6 +32,10 @@ spriteTypes = {
 		name = GFX_portrait_GER_joseph_wirth
 		textureFile = gfx/leaders/GER/Joseph_Wirth.png
 	}
+	spriteType = {
+		name = GFX_portrait_GER_heinrich_bruning
+		textureFile = gfx/leaders/GER/Heinrich_Bruning.png
+	}
 	#ポーランドの国家元首たち
 	spriteType = {
 		name = GFX_portrait_POL_felix_dzerzhinski

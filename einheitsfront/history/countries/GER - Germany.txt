@@ -189,6 +189,7 @@ recruit_character = GER_otto_ruhle
 recruit_character = GER_paul_levi
 recruit_character = GER_koch_weser
 recruit_character = GER_joseph_wirth
+recruit_character = GER_heinrich_bruning
 add_ideas = {
 }
 

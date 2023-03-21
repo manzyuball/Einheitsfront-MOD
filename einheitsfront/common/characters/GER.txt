@@ -96,4 +96,16 @@ characters = {
 			desc = GER_joseph_wirth_desc
 		}
 	}
+	GER_heinrich_bruning = {
+		name = GER_heinrich_bruning
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_heinrich_bruning
+			}
+		}
+		country_leader = {
+			ideology = christian_democracy
+			desc = GER_heinrich_bruning_desc
+		}
+	}
 }
