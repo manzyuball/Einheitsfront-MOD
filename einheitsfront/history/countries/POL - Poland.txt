@@ -118,6 +118,9 @@ recruit_character = POL_felix_dzerzhinski
 recruit_character = POL_gabriel_nartovich
 recruit_character = POL_roman_dmowski
 add_ideas = {
+	volunteer_only
+	export_focus
+	civilian_economy
 }
 
 #create_country_leader = {

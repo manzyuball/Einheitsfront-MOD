@@ -27,7 +27,7 @@ BUL_CL_HISTORICAL = {
 	fallback_name = "Lek Kraitser %d"
 
 	unique = {
-		"Sofia" "Pernik" "Svoge" "Slivnica" "Breznik" "Radomir" “Shipka” “Svetlinen Kraitser”
+		"Sofia" "Pernik" "Svoge" "Slivnica" "Breznik" "Radomir" "Shipka” “Svetlinen Kraitser”
 	}
 }
 
