@@ -37,6 +37,14 @@ spriteTypes = {
 		name = "GFX_ideology_stalinism"
 		texturefile = "gfx/interface/ideologies/vanguard_socialism/stalinism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_militarist_socialism"
+		texturefile = "gfx/interface/ideologies/vanguard_socialism/militarist_socialism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_trotskyism"
+		texturefile = "gfx/interface/ideologies/vanguard_socialism/trotskyism.png"
+	}
 	#ここから人民社会主義
 	spriteType = {
 		name = "GFX_ideology_popular_socialism_group"

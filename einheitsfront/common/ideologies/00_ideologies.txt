@@ -35,6 +35,12 @@ ideologies = {
 			stalinism = {
 				can_be_randomly_selected = no
 			}
+			trotskyism = {
+				can_be_randomly_selected = no
+			}
+			militarist_socialism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			166
