@@ -49,4 +49,21 @@ spriteTypes = {
 		name = GFX_portrait_POL_roman_dmowski
 		textureFile = gfx/leaders/POL/Portrait_Poland_Roman_Dmowski.dds
 	}
+	#ロシア（ソ連）の国家元首たち
+	spriteType = {
+		name = GFX_portrait_SOV_nikolai_bukharin
+		textureFile = gfx/leaders/SOV/nikolai_bukharin.png
+	}
+	spriteType = {
+		name = GFX_portrait_SOV_joseph_stalin
+		textureFile = gfx/leaders/SOV/joseph_stalin.png
+	}
+	spriteType = {
+		name = GFX_portrait_SOV_lev_trotsky
+		textureFile = gfx/leaders/SOV/lev_trotsky.png
+	}
+	spriteType = {
+		name = GFX_portrait_SOV_mikhail_tukhachevsky
+		textureFile = gfx/leaders/SOV/mikhail_tukhachevsky.png
+	}
 }

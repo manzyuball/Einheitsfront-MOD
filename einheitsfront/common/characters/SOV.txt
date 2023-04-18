@@ -1,0 +1,54 @@
+characters = {
+	#ソビエト連邦の国家元首級の人々
+	SOV_nikolai_bukharin = {
+		name = SOV_nikolai_bukharin
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_nikolai_bukharin
+			}
+		}
+		country_leader = {
+			ideology = bukharinism
+			desc = SOV_nikolai_bukharin_desc
+		}
+	}
+	SOV_lev_trotsky = {
+		name = SOV_lev_trotsky
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_lev_trotsky
+			}
+		}
+		country_leader = {
+			ideology = trotskyism
+			desc = SOV_lev_trotsky_desc
+		}
+	}
+	SOV_joseph_stalin = {
+		name = SOV_joseph_stalin
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_joseph_stalin
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			desc = SOV_joseph_stalin_desc
+		}
+	}
+	SOV_mikhail_tukhachevsky = {
+		name = SOV_mikhail_tukhachevsky
+		portraits = {
+			army = {
+				large = GFX_portrait_SOV_mikhail_tukhachevsky
+			}
+			civilian = {
+				large = GFX_portrait_SOV_mikhail_tukhachevsky
+			}
+		}
+		country_leader = {
+			ideology = militarist_socialism
+			desc = SOV_mikhail_tukhachevsky_desc
+		}
+	}
+}
