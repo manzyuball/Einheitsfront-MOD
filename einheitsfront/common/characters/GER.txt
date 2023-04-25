@@ -12,6 +12,18 @@ characters = {
 			desc = GER_gregor_strasser_desc
 		}
 	}
+	GER_karl_radek = {
+		name = GER_karl_radek
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_karl_radek
+			}
+		}
+		country_leader = {
+			ideology = national_bolshevism
+			desc = GER_karl_radek_desc
+		}
+	}
 	GER_heinrich_brandler = {
 		name = GER_heinrich_brandler
 		portraits = {
@@ -60,16 +72,16 @@ characters = {
 			desc = GER_otto_ruhle_desc
 		}
 	}
-	GER_paul_levi = {
-		name = GER_paul_levi
+	GER_hermann_muller = {
+		name = GER_hermann_muller
 		portraits = {
 			civilian = {
-				large = GFX_portrait_GER_paul_levi
+				large = GFX_portrait_GER_hermann_muller
 			}
 		}
 		country_leader = {
 			ideology = social_democracy
-			desc = GER_paul_levi_desc
+			desc = GER_hermann_muller_desc
 		}
 	}
 	GER_koch_weser = {
@@ -82,18 +94,6 @@ characters = {
 		country_leader = {
 			ideology = progressivism_generic
 			desc = GER_koch_weser_desc
-		}
-	}
-	GER_joseph_wirth = {
-		name = GER_joseph_wirth
-		portraits = {
-			civilian = {
-				large = GFX_portrait_GER_joseph_wirth
-			}
-		}
-		country_leader = {
-			ideology = christian_progressivism
-			desc = GER_joseph_wirth_desc
 		}
 	}
 	GER_heinrich_bruning = {

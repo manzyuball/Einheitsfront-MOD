@@ -20,6 +20,10 @@ spriteTypes = {
 		name = "GFX_ideology_corporatism"
 		texturefile = "gfx/interface/ideologies/national_socialism/corporatism.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_national_bolshevism"
+		texturefile = "gfx/interface/ideologies/national_socialism/national_bolshevism.png"
+	}
 	#ここから前衛社会主義
 	spriteType = {
 		name = "GFX_ideology_vanguard_socialism_group"
@@ -137,6 +141,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_christian_democracy"
 		texturefile = "gfx/interface/ideologies/conservatism/christian_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_right_wing_populism"
+		texturefile = "gfx/interface/ideologies/conservatism/right_wing_populism.png"
 	}
 	#ここから父権主義
 	spriteType = {

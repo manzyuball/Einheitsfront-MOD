@@ -172,9 +172,9 @@ set_politics = {
 }
 
 set_popularities = {
-	national_socialism = 10
+	national_socialism = 15
 	vanguard_socialism = 10
-	popular_socialism = 35
+	popular_socialism = 30
 	revisionist_socialism = 20
 	progressivism = 15
 	conservatism = 10
@@ -182,13 +182,13 @@ set_popularities = {
 
 #国家元首級キャラクター達
 recruit_character = GER_gregor_strasser
+recruit_character = GER_karl_radek
 recruit_character = GER_heinrich_brandler
 recruit_character = GER_karl_kautsky
 recruit_character = GER_rosa_luxemburg
 recruit_character = GER_otto_ruhle
-recruit_character = GER_paul_levi
+recruit_character = GER_hermann_muller
 recruit_character = GER_koch_weser
-recruit_character = GER_joseph_wirth
 recruit_character = GER_heinrich_bruning
 add_ideas = {
 	volunteer_only

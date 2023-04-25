@@ -12,6 +12,9 @@ ideologies = {
 			corporatism = {
 				can_be_randomly_selected = no
 			}
+			national_bolshevism = {
+				can_be_randomly_selected = no
+			}
 		}
 		color = {
 			97
@@ -160,6 +163,9 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			christian_democracy = {
+				can_be_randomly_selected = no
+			}
+			right_wing_populism = {
 				can_be_randomly_selected = no
 			}
 		}

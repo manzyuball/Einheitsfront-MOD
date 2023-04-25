@@ -5,6 +5,10 @@ spriteTypes = {
 		textureFile = gfx/leaders/GER/gregor_strasser.png
 	}
 	spriteType = {
+		name = GFX_portrait_GER_karl_radek
+		textureFile = gfx/leaders/GER/karl_radek.png
+	}
+	spriteType = {
 		name = GFX_portrait_GER_heinrich_brandler
 		textureFile = gfx/leaders/GER/brandler.png
 	}
@@ -21,8 +25,8 @@ spriteTypes = {
 		textureFile = gfx/leaders/GER/otto_rhle.png
 	}
 	spriteType = {
-		name = GFX_portrait_GER_paul_levi
-		textureFile = gfx/leaders/GER/paul_levi.png
+		name = GFX_portrait_GER_hermann_muller
+		textureFile = gfx/leaders/GER/herman_muller.png
 	}
 	spriteType = {
 		name = GFX_portrait_GER_koch_weser
@@ -35,6 +39,11 @@ spriteTypes = {
 	spriteType = {
 		name = GFX_portrait_GER_heinrich_bruning
 		textureFile = gfx/leaders/GER/Heinrich_Bruning.png
+	}
+	#ドイツのその他人物
+	spriteType = {
+		name = GFX_portrait_GER_paul_levi
+		textureFile = gfx/leaders/GER/paul_levi.png
 	}
 	#ポーランドの国家元首たち
 	spriteType = {
