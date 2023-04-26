@@ -5,7 +5,7 @@ state={
 	manpower = 1691200
 	
 	
-	state_category = town
+	state_category = large_city
 	
 	resources={
 		steel=70 # was: 136
